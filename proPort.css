@@ -65,9 +65,15 @@ nav
 img
 {
     align-content: center;
-    max-width: 100%;
+    max-width: 40%;
     padding-top: 10px;
 }
+
+@media (max-width: 800px) {
+    img{
+        max-width: 100%;
+    }
+  }
 
 .images
 {
@@ -82,7 +88,7 @@ p
 .blue
 {
     color: #0055FF;
-    text-align: start;
+    text-align: center;
     text-decoration: none;
     letter-spacing: 0.5px;
 }
@@ -106,10 +112,12 @@ p
 .fuji
 {
     text-align: center;
+    font-size: 125%;
 }
 
 .fuji1
 {
     text-decoration: none;
     color: #0055FF;
+    letter-spacing: 1.1px;
 }
